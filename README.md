@@ -6,3 +6,4 @@ Use the Tableau Web Data Connector (WDC) to connect to web data sources from Tab
 [Visit the project website and documentation here](https://tableau.github.io/webdataconnector/).
 
 Want to contribute to the WDC? See our [contribution guidelines](http://tableau.github.io/).
+#tableau-examples
