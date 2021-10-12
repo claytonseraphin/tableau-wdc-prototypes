@@ -23,21 +23,15 @@
                 <form class="form form-group">
 				    <div class="form-inline">
                     <label for="lists">Choose a category:</label>
-				        <select name="lists" id="lists" class="form-control form-control-lg">
-                            <option value="hardcover-fiction">Hardcover Fiction</option>
-                            <option value="manga">Manga</option>
-                            <option value="childrens-middle-grade">Children Middle Grade</option>
-                            <option value="young-adult">Young Adult</option>
-                            <option value="celebrities">Celebrities</option>
-                        </select>
+                        <input type="text" class="form-control form-control-lg" id="lists" placeholder="hardcover-fiction">
                         <span>&mdash;<span>
                         <label for="start-date-one" class="text-center">Date</label>
-				        <input type="text" class="form-control form-control-lg" id="start-date-one" placeholder="2017-01-29">
-                        <h6>Make sure the date takes the corresponding format in the placeholder</h6>
+				        <input type="text" class="form-control form-control-lg" id="start-date-one" placeholder="2008-06-08">
+                        <h6>Make sure the book category is in lowercase and replace the spcae with the dash symbol(-)</h6>
+                        <h6>Make sure the date format match the placeholder</h6>
 				    </div>
 				</form>
                 <button type = "button" id = "submitButton" class = "btn btn-secondary btn-lg btn-block">Get The Best Sellers Data!</button>
-                <h2>You want to use to School Data Explorer > <a href="https://educationdata.urban.org/data-explorer/schools/">Click Here</a></h2>
                 <div id="errorMsg"></div>
             </div>
         </div>
